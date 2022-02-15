@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box ;
+}
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/background.png);
+    width: auto;
+    height: 100px;
+}
+
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #C55394 ;
+    padding: 2%;
+}
+
+.topbar nav .page {
+    float: left;
+}
+
+.topbar nav a {
+    color: #FFF;
+    font-family: 'Courgette', cursive;
+    text-decoration: none;
+    padding: 0 25px;
+    line-height: 23px;
+    /*opacity: .4; */
+}
+
+.topbar nav .nous {
+    float: right;
+}
+
+.topbar nav a:hover {
+    color: #EB43A3;
+}
+
+/*.rainbow-title {
+    height: 300px;
+    background: url(img/rainbow.png) no-repeat;
+    background-position: center;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Courgette', cursive;
+    color: #C55394;
+} */
+
+.big-title {
+    background: no-repeat url(img/rainbow.png);
+    background-position: center;
+    height: 300px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: auto;
+    padding-top: 100px;
+    font-family: 'Courgette', cursive;
+    color: #C55394;
+    
+} 
+
+.main {
+    width: 1024px;
+    height: 1500px;
+    background-color: #FFF;
+    overflow: hidden;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 3000px;
+    margin-top: -100px;
+    box-shadow: 0 0 20px -10px;
+    box-shadow: lightgray;
+}
+
+
+h2, h4 {
+    color: #EB43A3;
+    font-family: 'Courgette', cursive;
+    margin-left: 20px;
+}
+
+.far {
+    color: #EB43A3;
+}
+
+
+.texte {
+    font-family: Arial, sans-serif;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photo {
+    height: 230px;
+    width: 230px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+figcaption {
+    color: #FFF;
+    font-family: 'Courgette', cursive;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    top: -20px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+
+/* button {
+    background-color: #EB43A3;
+    color: #FFF;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+.trouver {
+    float: left;
+    margin-left: 10px;
+    
+}
+
+.adresse {
+    margin-right: 20px;
+    padding: auto;
+}
+
+footer {
+    background-color: #C55394 ;
+}
+
